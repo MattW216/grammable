@@ -57,3 +57,5 @@ gem 'tether-rails'
 gem 'bootstrap'
 
 gem 'simple_form'
+
+gem 'devise'

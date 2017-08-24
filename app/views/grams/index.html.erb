@@ -6,3 +6,8 @@
   <%= image_tag gram.picture %>
 </div>
 <% end %>
+<br />
+<%= simple_form_for @comment do |f| %>
+  <%= f.input :message %>
+  <%= f.submit 'Post!' %>
+<% end %>
